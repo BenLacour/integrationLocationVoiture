@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lien Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- Lien Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="./indexStyle.css" />
+    <title>AVIS à la population</title>
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav>
+      <ul>
+        <li>
+          <a href=""><h1>AVIS</h1></a>
+        </li>
+        <li><a href="">Nos Véhicules</a></li>
+        <li><a href="">Location Longue Durée</a></li>
+        <li><a href="">Bons Plans</a></li>
+        <li><a href="">Nos Agences & Services</a></li>
+        <li><a href="">Entreprises</a></li>
+        <li><a href="">Aide et contacts</a></li>
+        <li><a href="">Gérer mes réservations</a></li>
+        <li>
+          <a href="">Votre Compte <i class="far fa-user"></i></a>
+        </li>
+        <li>
+          <a href="">Rechercher <i class="fas fa-search"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Main -->
+    <main>
+      <h2>LOCATION DE VOITURES A BORDEAUX</h2>
+      <!-- Form -->
+      <div class="formulaire">
+        <form action="">
+          <ul>
+            <li>
+              <label for="agenceDepart">Agence de départ</label>
+              <input type="text" id="agenceDepart" name="agenceDepart" />
+            </li>
+            <li>
+              <label for="dateDepart">Date de départ</label>
+              <input type="date" name="dateDepart" id="dateDepart" />
+              <label for="dateRetour">Date de retour</label>
+              <input type="date" name="dateRetour" id="dateRetour" />
+            </li>
+            <li>
+              <button type="submit">
+                Rechercher un véhicule <i class="fas fa-chevron-right"></i>
+              </button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </main>
+    <!-- Partie texte et photo -->
+    <article>
+      <div class="texteGauche">
+        <h2>Trouvez une voiture de location à Bordeaux avec Avis</h2>
+        <p>
+          Rien n’est plus simple que de louer une voiture à Bordeaux avec Avis
+          et nos agences de location sont situées tout autour de la ville.
+          Retrouvez-nous à l’aéroport Bordeaux-Mérignac, ainsi qu’à la gare
+          ferroviaire de Bordeaux-Saint-Jean et dans le centre-ville. Quelle que
+          soit l’agence de location de voiture à Bordeaux que vous choisissez
+          pour retirer votre véhicule, notre équipe procédera à votre
+          enregistrement avec rapidité et efficacité pour vous permettre de
+          partir à la découverte du sud-ouest pittoresque de la France.
+        </p>
+        <p>
+          À bord de votre véhicule de location à Bordeaux, découvrez la culture
+          et la cuisine française raffinée de cette ville du littoral, connue
+          pour sa majestueuse architecture du 18e siècle, ses places entourées
+          de cafés et ses bars à vin. Après tout, c’est la capitale du vin.
+          Par-delà les limites de la ville, les vignobles et leurs élégants
+          châteaux s’étendent sous des cieux infinis, véritable invitation à
+          s’aventurer au-delà du périmètre urbain de Bordeaux pour découvrir la
+          fascinante campagne du sud-ouest de la France.
+        </p>
+        <p>
+          Vous n’effectuez qu’un trajet aller ? Profitez de nos options de
+          retour flexibles. Vous pouvez retirer votre voiture de location à
+          Bordeaux et la déposer n’importe où en France ou en Europe.
+        </p>
+      </div>
+      <div class="photo">
+        <img
+          src="https://avisassets.abgemea.com/.imaging/flexibleIntroLarge/dam/DMS/global/hg2-images/intros/bordeaux/Place_Bourse_Credit_iStock_PJPhoto69.jpg.jpg"
+          alt="placeDeLaBourse"
+        />
+      </div>
+    </article>
+    <!-- Script jQuery / Ajax -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script js -->
+    <script src="./script.js"></script>
+  </body>
+</html>

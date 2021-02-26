@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Nav */
+
+nav {
+  background-color: rgb(182, 29, 29);
+  color: white;
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  width: 10%;
+  border-right: solid 0.1rem rgb(88, 88, 88);
+  text-align: center;
+}
+
+/* Main */
+
+main {
+  background-image: url("https://media.lesechos.com/api/v1/images/view/5e564835d286c24a66624156/1280x720/12760-1536067902-bordeaux.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+
+main h2 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 3rem;
+}
+
+/* Form */
+
+form {
+  height: 100%;
+}
+
+.formulaire {
+  width: 60%;
+  height: 25rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.formulaire input {
+  width: 50%;
+}
+
+.formulaire #agenceDepart {
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.formulaire ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.formulaire button {
+  padding: 1rem 5rem;
+  background-color: rgb(182, 29, 29);
+  color: white;
+  border: none;
+}
+
+/* Article */
+
+article {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.texteGauche {
+  padding: 0 1rem;
+}
+
+.photo {
+  padding: 0 1rem;
+}
